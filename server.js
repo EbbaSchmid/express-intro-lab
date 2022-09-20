@@ -19,9 +19,9 @@ app.set('view engine', 'ejs')
 
 // Mount routes
 
-app.get('/', function(req, res) {
-    res.send('<h1>hello, friend</h1>')
-})
+// app.get('/', function(req, res) {
+//     res.send('<h1>hello, friend</h1>')
+// })
 
 app.get('/home', function(reg, res) {
     res.send('<h1>Home Page</h1>')
