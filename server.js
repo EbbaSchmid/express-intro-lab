@@ -31,6 +31,10 @@ app.get('/home', function(reg, res) {
     res.render('home')
 })
 
+app.get('/', function(req, res) {
+    res.redirect('/home')
+})
+
 app.get('/students', function(req, res) {
     res.render('students/index', {
         students: students
